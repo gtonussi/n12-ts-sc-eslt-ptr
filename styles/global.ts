@@ -12,6 +12,7 @@ export default createGlobalStyle`
   }
 
   body {
+    color: ${({ theme }) => theme.colors.text.primary};
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 300;
